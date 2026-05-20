@@ -1,80 +1,38 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #2fe681;
-    display: flex;
-    justify-content: center;
-    padding-top: 50px;
+    background-color: #f14af1;
 }
 
 .container {
     display: flex;
     flex-direction: column;
-    background: white;
-    margin: auto;
     width: 900px;
+    margin: auto;
+    background-color: #ec9bdf;
     padding: 20px;
     margin-top: 40px;
     border-radius: 10px;
 }
 
-h1 {
-    text-align: center;
-    color: #333;
-}
-
-.input-area {
+.insere-tarefa {
     display: flex;
-    gap: 10px;
-    align-items: center;
+    gap: 16px;
+    align-items: center
+
 }
 
-input {
-    flex: 1;
-    padding: 6px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    height: 55px;
-}
-
-button {
-    flex: 1;
+.insere-tarefa input {
+    flex: 7;
     height: 40px;
-    padding: 12px;
-    border: none;
-    background: #4CAF50;
-    color: white;
-    border-radius: 5px;
-    cursor: pointer;
+    padding: 6px;
+    border-radius: 10px;
 }
 
-button:hover {
-    background: #45a049;
-}
-
-ul {
-    list-style: none;
-    padding: 0;
-    margin-top: 20px;
-}
-
-li {
-    background: #eee;
-    padding: 10px;
-    margin-bottom: 10px;
-    border-radius: 5px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.remover {
-    background: red;
-    padding: 5px 8px;
-    border-radius: 5px;
-    font-size: 12px;
-}
-
-.remover:hover {
-    background: darkred;
+.insere-tarefa button {
+    flex: 1;
+    height: 55px;
+    font-size: 22px;
+    background-color: #eec3c3;
+    border-radius: 10px;
 }
