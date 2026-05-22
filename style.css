@@ -36,3 +36,28 @@ body {
     background-color: #eec3c3;
     border-radius: 10px;
 }
+
+.tarefa {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #eec3c3;
+}
+
+.delete {
+    background-color: #ff0000;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 6px;
+    margin-right: 6px;
+}
+
+.edit {
+    background-color: #1ed418;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 6px;
+}
